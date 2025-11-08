@@ -1,0 +1,25 @@
+/* Custom app styles (Tailwind can handle most things). */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.layout {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.modal { /* simple modal fallback styles */
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  max-width: 900px;
+  width: 100%;
+}
